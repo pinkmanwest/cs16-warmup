@@ -53,7 +53,9 @@ There is no freeze time. The round timer starts at 30 minutes. Bots respawn in a
 
 ## Source files and dependencies
 
-The [source](source/) directory contains the Pawn plugin source, the editable GoldSrc map, and the map texture WAD. Add `aim_warmup.wad` in Hammer's texture settings when editing. The playable `.bsp` has its textures embedded. The map uses models and a skybox from the installed copy of CS 1.6.
+The [source](source/) directory contains the Pawn plugin source, the editable GoldSrc map and texture WAD, the map generator, and the texture embedder. Use the [build instructions](source/BUILD.md#english) to rebuild the map and plugin. The map uses models and a skybox from the installed copy of CS 1.6.
+
+[Download the project source ZIP](https://github.com/pinkmanwest/cs16-warmup/releases/download/v4.5/CS16-Aim-Warmup-v4.5-Project-Source.zip)
 
 The build uses AMX Mod X, Metamod-R, and ReGameDLL_CS. See [THIRD-PARTY.md](THIRD-PARTY.md) for exact versions, licenses, and links to the source code.
 
