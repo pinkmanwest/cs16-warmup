@@ -12,11 +12,9 @@ A circular warmup map for the Steam version of Counter-Strike 1.6 on Windows. It
 
 ## Installation
 
-1. Click **Download ZIP for Windows** at the top of this page. On the release page, open **Assets** and choose `CS16-Aim-Warmup-v4.5-Windows.zip`. The automatic `Source code` archives contain the project source files.
-2. Close CS 1.6. In your Steam Library, right-click **Counter-Strike** and choose **Manage** → **Browse local files**. This opens the `Half-Life` folder, which already contains a `cstrike` folder.
-3. Copy your existing `cstrike` folder somewhere safe. This backup lets you restore your original setup.
-4. Extract the downloaded ZIP. Copy the included `cstrike` folder into `Half-Life` so Windows merges the two `cstrike` folders. If prompted, choose **Replace the files in the destination**. The map should end up at `Half-Life\cstrike\maps\!00_AIM_WARMUP.bsp`.
-5. Launch CS 1.6. Select **New Game**, choose `!00_AIM_WARMUP`, and set the player limit to **32**. Click **Start** and choose CT or T.
+1. Click **Download ZIP for Windows** at the top of this page and extract the ZIP.
+2. Close CS 1.6. In Steam, right-click **Counter-Strike** → **Manage** → **Browse local files**. Copy the `cstrike` folder from the ZIP into the `Half-Life` folder that opens. Choose **Replace the files** when Windows asks.
+3. Start CS 1.6, open **New Game**, select `!00_AIM_WARMUP`, and set the player limit to **32**. Click **Start**.
 
 ![Copy the downloaded cstrike folder into the installed game](docs/images/copy-files.png)
 
@@ -48,8 +46,6 @@ There is no freeze time. The round timer starts at 30 minutes. Bots respawn in a
 **The map is missing from the list.** Check that `!00_AIM_WARMUP.bsp` is in `Half-Life\cstrike\maps`. If the path contains `cstrike\cstrike`, move the contents of the inner folder up one level. Fully restart the game.
 
 **The map loads but there are no bots.** Make sure you copied the complete `cstrike` folder from the ready-to-play ZIP, including `addons` and `dlls`. Set the player limit to 32 and check that at least one ring button is lit.
-
-**Restore your original setup.** Close CS 1.6, rename the modified `cstrike` folder, and restore your backup under the name `cstrike`.
 
 ## Source files and dependencies
 

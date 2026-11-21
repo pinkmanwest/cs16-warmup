@@ -1,8 +1,8 @@
 # Third-party components / Сторонние компоненты
 
-This list identifies the binaries distributed in the Windows release and the corresponding upstream source. License texts are included in the release ZIP under `licenses/`.
+This list identifies the binaries distributed in the Windows release and the corresponding upstream source. The Windows ZIP includes the license texts under `cstrike/addons/aim_warmup/licenses/`.
 
-Здесь перечислены сторонние компоненты Windows-сборки и их исходники. Тексты лицензий входят в готовый ZIP и лежат в папке `licenses/`.
+Здесь перечислены сторонние компоненты Windows-сборки и их исходники. Тексты лицензий лежат в ZIP по пути `cstrike/addons/aim_warmup/licenses/`.
 
 | Component | Version | License and corresponding source |
 | --- | --- | --- |
